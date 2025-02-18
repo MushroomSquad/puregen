@@ -42,6 +42,11 @@ setup(
         "typer==0.15.1",
         "typing_extensions==4.12.2",
     ],
+    entry_points={
+        "console_scripts": [
+            "puregen = puregen.__main__:app",
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
