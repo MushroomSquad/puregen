@@ -13,7 +13,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/MushroomSquad/puregen",
-    packages=find_packages(),
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     install_requires=[
         "annotated-types==0.7.0",
         "argcomplete==3.5.3",
@@ -44,7 +45,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "puregen = puregen.__main__:app",
+            "puregen = src.puregen.__main__:app",
         ],
     },
     classifiers=[
