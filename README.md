@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./logo.png" alt="Logo" width="864">
+  <img src="./logo.png" alt="Logo" width="364">
 </div>
 
 # puregen

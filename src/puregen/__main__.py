@@ -3,7 +3,6 @@ from collections import defaultdict
 from enum import Enum
 import os
 import re
-from typing import Literal
 from datamodel_code_generator import DataModelType, PythonVersion
 from datamodel_code_generator.model import get_data_model_types
 from datamodel_code_generator.parser.jsonschema import JsonSchemaParser
