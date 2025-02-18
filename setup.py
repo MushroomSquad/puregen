@@ -45,7 +45,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "puregen = src.puregen.__main__:app",
+            "puregen = puregen.__main__:app",
         ],
     },
     classifiers=[
